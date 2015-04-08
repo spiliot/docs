@@ -21,7 +21,7 @@ located)::
 
         php composer.phar require cakephp/migrations "@stable"
 
-You will need to add the following line to your application's bootstrap.php file::
+If it is not already there, you will need to add the following line to your application's bootstrap.php file::
 
         Plugin::load('Migrations');
 
